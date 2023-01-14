@@ -1,0 +1,645 @@
+//= include/header.html
+<div class="main-container">
+  //= include/main-aside.html
+  <main class="main-content">
+    <!-- Start of Main header -->
+    <header class="main-header">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-6 col-sm-5  col-lg-3">
+            <div class="header-left d-flex align-items-center">
+              <button type="button" class="menu-btn" id="menu-btn">
+                <span>
+                  <img src="assets/css/icons/ic_menu.svg" alt="image" />
+                </span>
+              </button>
+              <h3 class="section-title">Search Jobs</h3>
+            </div>
+          </div>
+          <div class="col col-lg-5 d-none d-lg-block">
+            <div class="header-center">
+              <div class="search-input position-relative">
+                <input type="text" class="custom-input" placeholder="Search something here..." />
+                <div class=" search-input-icon">
+                  <a href="#"><img src="assets/css/icons/ic_search.svg" alt="image" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-7 col-lg-4">
+            <div class="header-right d-flex align-items-center justify-content-end">
+              <div class="mobile-search-input">
+                <div class="mobile-search-input-icon">
+                  <a href="#"><img src="assets/css/icons/ic_search.svg" alt="image" /></a>
+                </div>
+              </div>
+              <a href="#" class="hr-chat d-flex align-items-center justify-content-center position-relative ">
+                <img src="assets/css/icons/ic_chat2.svg" alt="image" />
+                <div class="hr-chat-badge d-flex align-items-center justify-content-center position-absolute">
+                  18
+                </div>
+              </a>
+              <a href="#" class="hr-notifications d-flex align-items-center justify-content-center position-relative">
+                <img src="assets/css/icons/ic_bell.svg" alt="image" />
+                <div class="hr-notif-badge  d-flex align-items-center justify-content-center position-absolute">
+                  52
+                </div>
+              </a>
+              <div class="account d-flex">
+                <div class="account-img">
+                  <a href="#"><img src="../assets/img/user-image.png" alt="image" /></a>
+                </div>
+                <div class="account-content">
+                  <h4 class="account-name">
+                    Oda Dink
+                  </h4>
+                  <div class="account-info">
+                    Super admin
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of Main header -->
+    <!--Start of Searching-jobs -->
+    <section class="searching-jobs">
+      <div class="container-fluid">
+        <div class="searching-form-content">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="search-jobs-location d-flex align-items-center">
+                <img src="assets/css/icons/location.svg" alt="image" />
+                <select class="form-select custom-select" aria-label="Default select example">
+                  <option selected>
+                    <span>Around you</span>
+                  </option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-xl-5">
+              <div class="search-jobs-input">
+                <input type="search" placeholder="Search by Title, Company or any jobs keyword...">
+              </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-5 col-xl-4">
+              <div class="sj-content-right ">
+                <button class="filter-btn custom-btn custom-btn-outline custom-btn-lg">
+                  <img src="assets/css/icons/filter.svg" alt="image" />
+                  <span> Filter</span>
+                </button>
+                <button class="find-btn custom-btn custom-btn-solid custom-btn-lg">
+                  <img src="assets/css/icons/ic_search-white.svg" alt="image" />
+                  <span> Find</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of Searching-jobs -->
+    <!-- Start of jobs -->
+    <section class="jobs-section">
+      <div class="container-fluid">
+        <div class="search-categories d-flex align-items-center">
+          <div class="job-suggestions-text">
+            Suggestions
+          </div>
+          <div class="searching-categories-btns">
+            <a href="#" class="custom-btn custom-btn-outline custom-btn-lg">
+              <span> Programmer</span>
+            </a>
+            <a href="#" class="custom-btn custom-btn-outline custom-btn-lg">
+              <span> Software Engineer</span>
+            </a>
+            <a href="#" class="custom-btn custom-btn-outline custom-btn-lg">
+              <span> Photographer</span>
+            </a>
+            <a href="#" class="custom-btn custom-btn-outline custom-btn-lg">
+              <span> Digital Marketing</span>
+            </a>
+          </div>
+        </div>
+        <div class="filtering-wrapper">
+          <div class="row align-items-center">
+            <div class="col-lg-3">
+              <div class="job-result-text searching-result-text">
+                <h5>
+                  Showing 246 Jobs Results
+                </h5>
+                <p>
+                  Based your preferences
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <div class="job-filtering d-flex align-items-center justify-content-between">
+                <div class="d-flex flex-column flex-md-row">
+                  <div class="job-filtering__type">
+                    <div class="form-group jobType">
+                      <input type="radio" id="fulltime" class="application-input" name="jobType" />
+                      <label for="fulltime" class="d-flex align-items-start ">Fulltime</label>
+                    </div>
+                  </div>
+                  <div class="job-filtering__type">
+                    <div class="form-group jobType">
+                      <input type="radio" id="freelance" class="application-input" name="jobType" />
+                      <label for="freelance" class="d-flex align-items-start ">Freelance</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row">
+                  <div class="toggle-btn-wrapper d-flex align-items-center">
+                    <div>
+                      Details
+                    </div>
+                    <button class="toggle-btn active  position-relative" id="sj-details-btn">
+                      <span class="position-absolute">
+                      </span>
+                    </button>
+                  </div>
+                  <div class="toggle-btn-wrapper d-flex align-items-center">
+                    <div>
+                      Salary
+                    </div>
+                    <button class="toggle-btn active position-relative" id="sj-salary-btn">
+                      <span class="position-absolute">
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="select-wrapper d-flex align-items-center">
+                  <img src="assets/css/icons/ic_sort.svg" alt="image" />
+                  <select class="form-select custom-select" aria-label="Default select example">
+                    <option selected>
+                      <span>Newest</span>
+                    </option>
+                  </select>
+                </div>
+                <div class="jobs-filtering__view d-none  d-lg-flex items-view-btn-wrapper">
+                  <button class="items-view-btn" id="job-view__list">
+                    <img src="assets/css/icons/ic_list.svg" alt="image" />
+                    <img src="assets/css/icons/ic_list-white.svg" alt="image" />
+                  </button>
+                  <button class="items-view-btn active" id="job-view__grid">
+                    <img src="assets/css/icons/ic_grid.svg" alt="image" />
+                    <img src="assets/css/icons/ic_grid-white.svg" alt="image" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jobs__main">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-job">
+                <a href="#" class="text-decoration-none">
+                  <div class="job-header">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="job-header-left">
+                          <div class="job__company-name">
+                            Amazon
+                          </div>
+                          <h3 class="job-title">
+                            Python programmer
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="job-img text-end">
+                          <img src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-logo-meaning.jpg" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="job-content">
+                    <div class="job-salary">
+                      $94,000 - $125,000
+                    </div>
+                    <div class="job-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam...
+                    </div>
+                    <div class="job__bottom  justify-content-between align-items-center">
+                      <div class="job-type">
+                        REMOTE
+                      </div>
+                      <div class="job-location">
+                        London, England
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-job">
+                <a href="#" class="text-decoration-none">
+                  <div class="job-header">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="job-header-left">
+                          <div class="job__company-name">
+                            UNIBANK
+                          </div>
+                          <h3 class="job-title">
+                            Database programmer
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="job-img text-end">
+                          <img src="https://unibank.az/assets/img/logo.png" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="job-content">
+                    <div class="job-salary">
+                      $94,000 - $125,000
+                    </div>
+                    <div class="job-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam...
+                    </div>
+                    <div class="job__bottom  justify-content-between align-items-center">
+                      <div class="job-type">
+                        REMOTE
+                      </div>
+                      <div class="job-location">
+                        London, England
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-job">
+                <a href="#" class="text-decoration-none">
+                  <div class="job-header">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="job-header-left">
+                          <div class="job__company-name">
+                            Space X
+                          </div>
+                          <h3 class="job-title">
+                            Node JS developer
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="job-img text-end">
+                          <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/spacex_logo_icon_144865.png" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="job-content">
+                    <div class="job-salary">
+                      $94,000 - $125,000
+                    </div>
+                    <div class="job-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam...
+                    </div>
+                    <div class="job__bottom  justify-content-between align-items-center">
+                      <div class="job-type">
+                        REMOTE
+                      </div>
+                      <div class="job-location">
+                        London, England
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-job">
+                <a href="#" class="text-decoration-none">
+                  <div class="job-header">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="job-header-left">
+                          <div class="job__company-name">
+                            BMW Group
+                          </div>
+                          <h3 class="job-title">
+                            C# Programmer
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="job-img text-end">
+                          <img src="../assets/img/company-logo.png" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="job-content">
+                    <div class="job-salary">
+                      $94,000 - $125,000
+                    </div>
+                    <div class="job-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam...
+                    </div>
+                    <div class="job__bottom  justify-content-between align-items-center">
+                      <div class="job-type">
+                        REMOTE
+                      </div>
+                      <div class="job-location">
+                        London, England
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-job">
+                <a href="#" class="text-decoration-none">
+                  <div class="job-header">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="job-header-left">
+                          <div class="job__company-name">
+                            TESLA
+                          </div>
+                          <h3 class="job-title">
+                            Database programmer
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="job-img text-end">
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="job-content">
+                    <div class="job-salary">
+                      $94,000 - $125,000
+                    </div>
+                    <div class="job-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam...
+                    </div>
+                    <div class="job__bottom  justify-content-between align-items-center">
+                      <div class="job-type">
+                        REMOTE
+                      </div>
+                      <div class="job-location">
+                        London, England
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-job">
+                <a href="#" class="text-decoration-none">
+                  <div class="job-header">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="job-header-left">
+                          <div class="job__company-name">
+                            TESLA
+                          </div>
+                          <h3 class="job-title">
+                            Full Stack programmer
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="job-img text-end">
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="job-content">
+                    <div class="job-salary">
+                      $94,000 - $125,000
+                    </div>
+                    <div class="job-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam...
+                    </div>
+                    <div class="job__bottom  justify-content-between align-items-center">
+                      <div class="job-type">
+                        REMOTE
+                      </div>
+                      <div class="job-location">
+                        London, England
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-job">
+                <a href="#" class="text-decoration-none">
+                  <div class="job-header">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="job-header-left">
+                          <div class="job__company-name">
+                            Space X
+                          </div>
+                          <h3 class="job-title">
+                            Database programmer
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="job-img text-end">
+                          <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/spacex_logo_icon_144865.png" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="job-content">
+                    <div class="job-salary">
+                      $94,000 - $125,000
+                    </div>
+                    <div class="job-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam...
+                    </div>
+                    <div class="job__bottom  justify-content-between align-items-center">
+                      <div class="job-type">
+                        REMOTE
+                      </div>
+                      <div class="job-location">
+                        London, England
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-job">
+                <a href="#" class="text-decoration-none">
+                  <div class="job-header">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="job-header-left">
+                          <div class="job__company-name">
+                            BMW Group
+                          </div>
+                          <h3 class="job-title">
+                            Database programmer
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="job-img text-end">
+                          <img src="../assets/img/company-logo.png" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="job-content">
+                    <div class="job-salary">
+                      $94,000 - $125,000
+                    </div>
+                    <div class="job-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam...
+                    </div>
+                    <div class="job__bottom  justify-content-between align-items-center">
+                      <div class="job-type">
+                        REMOTE
+                      </div>
+                      <div class="job-location">
+                        London, England
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-job">
+                <a href="#" class="text-decoration-none">
+                  <div class="job-header">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="job-header-left">
+                          <div class="job__company-name">
+                            Netflix
+                          </div>
+                          <h3 class="job-title">
+                            React JS developer
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="job-img text-end">
+                          <img src="https://w7.pngwing.com/pngs/153/31/png-transparent-netflix-macos-bigsur-icon.png"
+                            alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="job-content">
+                    <div class="job-salary">
+                      $94,000 - $125,000
+                    </div>
+                    <div class="job-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam...
+                    </div>
+                    <div class="job__bottom  justify-content-between align-items-center">
+                      <div class="job-type">
+                        REMOTE
+                      </div>
+                      <div class="job-location">
+                        London, England
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- start of pagination -->
+    <section class="pagination-sec">
+      
+    </section>
+  </main>
+</div>
+<script>
+
+  // job filering view (list / grid)
+  const jobViewList = document.querySelector("#job-view__list");
+  const jobViewGrid = document.querySelector("#job-view__grid");
+  const singleJobs = document.querySelectorAll(".jobs__main>.row>*")
+  const jobMain = document.getElementsByClassName("jobs__main")[0]
+  jobViewList.onclick = function () {
+    singleJobs.forEach((item) => {
+      item.classList.add("col-lg-6");
+      item.classList.remove("col-lg-4");
+    })
+    jobMain.classList.add("center")
+    jobViewGrid.classList.remove("active")
+    this.classList.add("active")
+  }
+  jobViewGrid.onclick = function () {
+    singleJobs.forEach((item) => {
+      item.classList.remove("col-lg-6");
+      item.classList.add("col-lg-4");
+    })
+    jobMain.classList.remove("center")
+    jobViewList.classList.remove("active")
+    this.classList.add("active")
+  }
+
+  const detailsBtn = document.getElementById("sj-details-btn")
+  const salaryBtn = document.getElementById("sj-salary-btn")
+  const jobSalary = document.querySelectorAll(".job-salary")
+  const jobDesc = document.querySelectorAll(".job-desc")
+  const jobBottom = document.querySelectorAll(".job__bottom")
+  function handleToggleBtns(btn,element){
+    element.forEach(item => {
+      if (btn.classList.contains("active")) {
+        item.style.display = "none"
+      } else {
+        item.style.display = "block"
+      }
+    })
+  }
+  salaryBtn.addEventListener("click", function () {
+    handleToggleBtns(this,jobSalary)
+  })
+  detailsBtn.addEventListener("click", function () {
+    handleToggleBtns(this,jobDesc)
+    jobBottom.forEach(item => {
+      if (this.classList.contains("active")) {
+        item.style.display = "none"
+      } else {
+        item.style.display = "flex"
+      }
+    })
+  })
+
+</script>
+//= include/footer.html

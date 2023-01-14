@@ -1,0 +1,806 @@
+@media (min-width: 1299px) {
+  .header-right {
+    padding-left: 36px;
+  }
+
+  .searching-form-content {
+    padding: 16px 24px;
+  }
+
+  .sj-content-right .filter-btn {
+    margin-right: 24px;
+  }
+
+}
+
+@media (min-width: 1399px) {
+
+  .job-filtering__type label {
+    font: 16px $medium;
+  }
+
+  .toggle-btn-wrapper>div {
+    font: 16px $medium;
+    margin-right: 12px;
+  }
+
+  .main-navbar {
+    padding-left: 16px;
+  }
+
+  .main-aside.hide {
+    transform: translateX(-100%);
+    z-index: -999;
+  }
+}
+
+@media (max-width: 1399px) {
+  .main-content {
+    width: 100%;
+  }
+
+  .close-aside-btn {
+    display: block;
+    margin-right: 24px;
+    font-size: 24px;
+  }
+
+  .main-aside {
+    transition: var(--transition);
+    transform: translateX(-100%);
+    width: 300px!important ;
+  }
+
+  .main-aside-responsive {
+    position: fixed;
+    background-color: var(--main-purple);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(0);
+    z-index: 9999;
+  }
+
+  .main-aside-responsive-hide {
+    transform: translateX(-100%);
+  }
+
+  .main-content {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .applications-container {
+    overflow: auto;
+  }
+  .application-wrapper {
+    width: 1100px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-center {
+    display: none;
+  }
+
+  .mobile-search-input {
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .hr-chat img,
+  .hr-notifications img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .hr-chat,
+  .hr-notifications {
+    width: 42px;
+    height: 42px;
+  }
+
+  .home-card {
+    height: 120px;
+  }
+
+  .home-card-num {
+    font-size: 36px;
+  }
+
+  .profile {
+    max-width: 240px;
+    margin: auto;
+  }
+
+  .filtering-wrapper {
+    padding-bottom: 24px;
+  }
+
+  .job-result-text {
+    margin-bottom: 16px;
+  }
+
+  .custom-btn-lg {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 20px;
+  }
+
+  .search-categories {
+    flex-direction: column;
+    align-items: start !important;
+  }
+
+  .searching-categories-btns a {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+
+  .job-suggestions-text {
+    margin-bottom: 16px;
+  }
+
+  .breadcrumb-section {
+    padding-bottom: 16px;
+  }
+
+  .main-header {
+    padding: 20px 0 20px;
+  }
+
+  .profile-job {
+    margin-bottom: 18px;
+  }
+
+  .recent-activities {
+    max-width: 400px;
+    margin: 24px auto 32px;
+  }
+
+  .search-categories {
+    padding-bottom: 32px;
+  }
+
+  .applicants-result-text {
+    margin-bottom: 20px;
+  }
+
+  .application-btn-group {
+    padding-bottom: 18px;
+  }
+
+  .jobs-carousel-wrapper {
+    margin-top: 36px;
+  }
+
+  .featured-companies>div>h4 {
+    margin-bottom: 28px;
+  }
+
+  .featured-companies {
+    padding-top: 32px;
+  }
+
+  .single-job {
+    margin-bottom: 20px;
+  }
+
+  .companies-filtering .select-wrapper {
+    margin-left: 24px;
+  }
+
+  .single-company a,.companies-main .single-company  {
+    margin-bottom: 24px;
+  }
+
+  .companies-main {
+    margin-top: 20px;
+  }
+
+  .companies-main .single-company .company-name {
+    margin-top: 12px;
+  }
+
+  .companies-aside,
+  .ca-close-btn {
+    display: none !important;
+  }
+
+  n {}
+}
+
+@media (max-width: 767.98px) {
+
+  .hr-chat img,
+  .hr-notifications img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .hr-chat,
+  .hr-notifications {
+    width: 36px;
+    height: 36px;
+  }
+
+  .hr-chat-badge,
+  .hr-notif-badge {
+    width: 18px;
+    height: 18px;
+    font: 11px "Poppins-Medium.ttf";
+  }
+
+  .account-img {
+    width: 44px;
+    height: 44px;
+  }
+
+  .account-name {
+    font: 14px "Poppins-Medium.ttf";
+    margin-bottom: 2px;
+  }
+
+  .account-info {
+    font-size: 12px;
+  }
+
+  .account-content {
+    margin-left: 8px;
+  }
+
+  .header-right .account {
+    margin-left: 24px;
+  }
+
+  .section-title {
+    font-size: 16px;
+    margin: 4px 0 0 8px;
+  }
+
+  .menu-btn img {
+    width: 24px;
+    height: 16px;
+  }
+
+  .recent-activities h4 {
+    text-align: center;
+  }
+
+  .job__company-name {
+    font: 12px "Poppins-Medium.ttf"
+  }
+
+  .job-title {
+    font-size: 16px;
+    height: 28px;
+    -webkit-line-clamp: 1;
+  }
+
+  .job-salary {
+    font-size: 14px;
+  }
+
+  .job-desc {
+    font-size: 12px;
+    margin: 12px 0 16px;
+    color: var(--color0C);
+  }
+
+  .single-job a {
+    padding: 16px 16px 18px 16px;
+  }
+
+  .job-content {
+    padding-bottom: 0px;
+  }
+
+  .job-type {
+    font-size: 14px;
+    padding: 4px 12px;
+  }
+
+  .job-location {
+    font-size: 14px;
+  }
+
+  .job-img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .sj-content-right {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .sj-content-right button img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .filter-btn span,
+  .find-btn span {
+    margin-left: 4px;
+  }
+
+  .search-jobs-location {
+    margin-bottom: 12px;
+  }
+
+  .custom-btn-lg {
+    font: 14px "Poppins-Medium.ttf";
+    height: 36px;
+    line-height: 36px;
+    padding: 0 14px;
+  }
+
+  .search-jobs-input input {
+    font-size: 14px;
+  }
+
+  .sj-content-right .filter-btn {
+    margin-right: 8px;
+  }
+
+  .custom-select {
+    font-size: 14px;
+  }
+
+  .searching-form-content {
+    max-width: 450px;
+    margin: auto;
+  }
+
+  .job-filtering__type {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .job-filtering .toggle-btn-wrapper {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .breadcrumb li,
+  .breadcrumb li a {
+    font-size: 14px;
+  }
+
+  .breadcrumb-section {
+    padding-bottom: 8px;
+  }
+
+  .edit-profile-section {
+    padding: 24px 16px;
+  }
+
+  .edit-profile-title {
+    font-size: 20px;
+  }
+
+  .edit-profile-right .toggle-btn-wrapper {
+    margin-right: 20px;
+  }
+
+  .edit-profile-right .edit-form-cancel {
+    margin-right: 12px;
+  }
+
+  .profile-job {
+    margin-bottom: 14px;
+  }
+
+  .jobs-carousel-wrapper .owl-dots {
+    display: none;
+  }
+
+  .jobs-carousel-wrapper {
+    margin-top: 24px;
+  }
+
+  .searching-categories-btns a {
+    margin-bottom: 12px;
+  }
+
+  .applicants-result-text {
+    margin-bottom: 16px;
+  }
+
+  .application-btn-group {
+    padding-bottom: 14px;
+  }
+
+  .featured-companies {
+    padding-top: 24px;
+  }
+
+  .featured-companies>div>h4 {
+    margin-bottom: 24px;
+    font: 18px "Poppins-Medium.ttf";
+  }
+
+  .featured-companies-main .single-company a {
+    padding: 24px;
+  }
+
+  .company-brand {
+    width: 60px;
+    height: 60px;
+  }
+
+  .single-job {
+    margin-bottom: 16px;
+  }
+
+  .applications-container {
+    padding: 18px 14px;
+  }
+
+  .application-body tr td>div {
+    padding: 8px 0;
+  }
+
+  .about-me-title {
+    font: 14px "Poppins-Medium.ttf";
+    margin-bottom: 12px;
+  }
+
+  .about-me-text {
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  .edit-profile__skills {
+    margin-top: 36px;
+  }
+
+  .single-company a,.companies-main .single-company {
+    margin-bottom: 20px;
+  }
+
+  .companies-main {
+    margin-top: 16px;
+  }
+
+  .companies-main .single-company  {
+    padding: 20px 0;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .hr-chat,
+  .hr-notifications {
+    display: none !important
+  }
+
+  .header-right .account {
+    margin-left: 0;
+  }
+
+  .mobile-search-input {
+    margin-right: 16px;
+  }
+
+  .mobile-search-input img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .cards>.container-fluid>.row {
+    max-width: 350px;
+    margin: auto;
+  }
+
+  .home-card-title {
+    font-size: 14px;
+  }
+
+  .home-card-num {
+    font-size: 26px;
+  }
+
+  .home-card {
+    height: 90px;
+    margin-bottom: 12px;
+  }
+
+  .home-card-icon img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .cards {
+    margin: 0;
+  }
+
+  .dashboard-main-left {
+    background: white;
+    border-radius: 20px;
+    padding: 24px 12px 2px 12px;
+  }
+
+  .profile-job {
+    margin-bottom: 8px;
+  }
+
+  .dashboard-chart-cover {
+    padding: 16px 4px 16px 4px;
+    margin-top: 24px;
+  }
+
+
+
+  .dc-header-title {
+    font-size: 16px;
+  }
+
+  #dashboard-chart .apexcharts-legend-series {
+    margin: 0 12px !important;
+  }
+
+  .show-more-activity {
+    width: 42px;
+    height: 42px;
+  }
+
+  .show-more-activity img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .ra-timeAgo {
+    font-size: 12px;
+  }
+
+  .jobs-carousel .single-job {
+    width: 340px;
+  }
+
+  .jobs-carousel-wrapper {
+    margin-top: 0px;
+  }
+
+  .jobs-carousel-sec>.container-fluid>h4 {
+    font: 16px "Poppins-Medium.ttf";
+    margin-bottom: 16px;
+  }
+
+  .dashboard-chart-cover {
+    margin-bottom: 24px;
+  }
+
+  .view-more_jobs a img {
+    height: 20px;
+  }
+
+  .main-header {
+    padding: 14px 0 24px;
+  }
+
+  .jobs__main {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .select-wrapper img {
+    display: none;
+  }
+
+  .select-wrapper {
+    padding: 0;
+    border-radius: 4px;
+  }
+
+  .select-wrapper .form-select {
+    background-position: right 10px center;
+    background-size: 12px 11px;
+  }
+
+
+  .toggle-btn {
+    height: 12px;
+    width: 30px;
+  }
+
+  .toggle-btn span {
+    width: 18px;
+    height: 18px;
+  }
+
+  .form-group.jobType label:before {
+    margin-top: 0;
+    margin-right: 6px;
+    padding: 6px;
+  }
+
+  .form-group.jobType input:checked+label:after {
+    height: 8px;
+    left: 7px;
+    top: 4px;
+  }
+
+  .search-categories {
+    padding-bottom: 8px;
+  }
+
+  .searching-result-text h5 {
+    font: 14px "Poppins-Bold.ttf";
+  }
+
+  .searching-result-text p {
+    font-size: 12px;
+  }
+
+  .job-filtering__type {
+    margin-bottom: 10px;
+  }
+
+  .job-filtering .toggle-btn-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .searching-categories-btns .custom-btn-lg {
+    height: 32px;
+    line-height: 34px;
+  }
+
+  .jobs-section,
+  .companies-section {
+    padding-top: 20px;
+  }
+
+  .job-suggestions-text {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .filtering-wrapper {
+    padding-bottom: 12px;
+  }
+
+
+  .edit-profile-title {
+    font-size: 16px;
+  }
+
+  .edit-profile-section {
+    padding: 16px 12px;
+  }
+
+  .edit-profile-sec-title {
+    font: 16px "Poppins-Bold.ttf";
+    margin-bottom: 30px;
+  }
+
+  .form-item input {
+    padding-bottom: 4px;
+    font-size: 14px;
+  }
+
+  .form-item label {
+    font: 14px "Poppins-Medium.ttf";
+    margin-bottom: 12px
+  }
+
+  .form-item {
+    margin-bottom: 16px;
+  }
+
+  .password-toggle-show {
+    font-size: 14px;
+  }
+
+  .edit-profile__contact {
+    margin-top: 24px;
+    margin-bottom: 14px;
+  }
+
+  .edit-profile-btns {
+    display: none;
+  }
+
+  .edit-profile-btns-mobile {
+    display: block;
+    margin-bottom: 24px;
+    text-align: right;
+  }
+
+  .edit-profile-btns-mobile button {
+    margin-left: 12px;
+  }
+
+  .form-item-icon {
+    height: 18px;
+    width: 18px;
+  }
+
+  .edit-profile-header {
+    padding-bottom: 24px;
+  }
+
+  .ra-text {
+    margin-bottom: 0;
+  }
+
+
+  .application-btn-group {
+    padding-bottom: 8px;
+  }
+
+  .featured-companies-main .single-company a {
+    padding: 20px;
+  }
+
+  .featured-companies-main .single-company a {
+    width: 230px;
+  }
+
+  .company-name,
+  .company-vacancies {
+    font-size: 14px;
+    margin-top: 2px;
+  }
+
+  .company-category {
+    font-size: 12px;
+  }
+
+  .featured-companies-main a .company-brand {
+    margin-right: 12px;
+  }
+
+  .featured-companies-main .single-company a {
+    padding: 16px;
+  }
+
+  .company-brand {
+    width: 54px;
+    height: 54px;
+  }
+
+  .featured-companies>div>h4 {
+    margin-bottom: 14px;
+    font: 16px "Poppins-Medium.ttf";
+  }
+
+  .single-job {
+    margin-bottom: 14px;
+  }
+
+  .applications-container {
+    padding: 16px 12px;
+  }
+
+  .application-header::after {
+    padding-top: 20px;
+  }
+
+  .form-item-icon {
+    bottom: 7px;
+  }
+
+  .single-company a ,.companies-main .single-company{
+    margin-bottom: 16px;
+  }
+
+  .companies-main {
+    max-width: 370px;
+    margin: auto;
+  }
+
+  .companies-main {
+    margin-top: 14px;
+  }
+}
+
+@media (max-width:680px) {
+  .dc-header-btns {
+    display: none !important;
+  }
+}

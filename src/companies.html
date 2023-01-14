@@ -1,0 +1,439 @@
+//= include/header.html
+<div class="main-container">
+    //= include/main-aside.html
+    <div class="main-content">
+        <!-- Start of Main header -->
+        <header class="main-header">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-3 col-sm-2 col-md-3 col-lg-3">
+                        <div class="header-left d-flex align-items-center">
+                            <button type="button" class="menu-btn" id="menu-btn">
+                                <span>
+                                    <img src="assets/css/icons/ic_menu.svg" alt="image" />
+                                </span>
+                            </button>
+                            <h3 class="section-title">Companies</h3>
+                        </div>
+                    </div>
+                    <div class="col col-lg-5">
+                        <div class="header-center">
+                            <div class="search-input position-relative">
+                                <input type="text" class="custom-input" placeholder="Search something here..." />
+                                <div class=" search-input-icon">
+                                    <a href="#"><img src="assets/css/icons/ic_search.svg" alt="image" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-sm-9 col-md-8 col-lg-4">
+                        <div class="header-right d-flex align-items-center justify-content-end">
+                            <div class="mobile-search-input">
+                                <div class="mobile-search-input-icon">
+                                    <a href="#"><img src="assets/css/icons/ic_search.svg" alt="image" /></a>
+                                </div>
+                            </div>
+                            <a href="#" class="hr-chat d-flex align-items-center justify-content-center position-relative ">
+                                <img src="assets/css/icons/ic_chat2.svg" alt="image" />
+                                <div
+                                    class="hr-chat-badge d-flex align-items-center justify-content-center position-absolute">
+                                    18
+                                </div>
+                            </a>
+                            <a href="#"
+                                class="hr-notifications d-flex align-items-center justify-content-center position-relative">
+                                <img src="assets/css/icons/ic_bell.svg" alt="image" />
+                                <div
+                                    class="hr-notif-badge  d-flex align-items-center justify-content-center position-absolute">
+                                    52
+                                </div>
+                            </a>
+                            <div class="account d-flex">
+                                <div class="account-img">
+                                    <a href="#"><img src="../assets/img/user-image.png" alt="image" /></a>
+                                </div>
+                                <div class="account-content">
+                                    <h4 class="account-name">
+                                        Oda Dink
+                                    </h4>
+                                    <div class="account-info">
+                                        Super admin
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <!-- End of Main header -->
+        <!--Start of Searching-jobs -->
+        <section class="searching-companies">
+            <div class="container-fluid">
+                <div class="searching-form-content">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                            <div class="search-jobs-location d-flex align-items-center">
+                                <img src="assets/css/icons/location.svg" alt="image" />
+                                <select class="form-select custom-select" aria-label="Default select example">
+                                    <option selected>
+                                        <span>Around you</span>
+                                    </option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-xl-5">
+                            <div class="search-jobs-input">
+                                <input type="search" placeholder="Search by Title, Company or any jobs keyword...">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-5 col-xl-4">
+                            <div class="sj-content-right ">
+                                <button class="filter-btn custom-btn custom-btn-outline custom-btn-lg">
+                                    <img src="assets/css/icons/filter.svg" alt="image" />
+                                    <span> Filter</span>
+                                </button>
+                                <button class="find-btn custom-btn custom-btn-solid custom-btn-lg">
+                                    <img src="assets/css/icons/ic_search-white.svg" alt="image" />
+                                    <span> Find</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of Searching-jobs -->
+        <section class="companies-section">
+            <div class="container-fluid">
+                <div class="search-categories d-flex align-items-center">
+                    <div class="job-suggestions-text">
+                        Suggestions
+                    </div>
+                    <div class="searching-categories-btns">
+                        <a href="#" class="custom-btn custom-btn-outline custom-btn-lg">
+                            <span> Programmer</span>
+                        </a>
+                        <a href="#" class="custom-btn custom-btn-outline custom-btn-lg">
+                            <span> Software Engineer</span>
+                        </a>
+                        <a href="#" class="custom-btn custom-btn-outline custom-btn-lg">
+                            <span> Photographer</span>
+                        </a>
+                        <a href="#" class="custom-btn custom-btn-outline custom-btn-lg">
+                            <span> Digital Marketing</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="filtering-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3">
+                            <div class="job-result-text searching-result-text">
+                                <h5>
+                                    Showing 15 Jobs companies
+                                </h5>
+                                <p>
+                                    Based your preferences
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div
+                                class="companies-filtering d-flex align-items-center justify-content-start  justify-content-lg-end">
+                                <div class="toggle-btn-wrapper d-flex align-items-center">
+                                    <div>
+                                        Salary
+                                    </div>
+                                    <button class="toggle-btn active position-relative ">
+                                        <span class="position-absolute">
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="select-wrapper d-flex align-items-center">
+                                    <img src="assets/css/icons/ic_sort.svg" alt="image" />
+                                    <select class="form-select custom-select" aria-label="Default select example">
+                                        <option selected>
+                                            <span>Newest</span>
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="jobs-filtering__view d-none  d-lg-flex items-view-btn-wrapper">
+                                    <button class="items-view-btn" id="company-view__list">
+                                        <img src="assets/css/icons/ic_list.svg" alt="image" />
+                                        <img src="assets/css/icons/ic_list-white.svg" alt="image" />
+                                    </button>
+                                    <button class="items-view-btn active" id="company-view__grid">
+                                        <img src="assets/css/icons/ic_grid.svg" alt="image" />
+                                        <img src="assets/css/icons/ic_grid-white.svg" alt="image" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="companies-main position-relative">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                <div class="company-brand m-auto">
+                                    <img src="../assets/img/company-logo.png" alt="image">
+                                </div>
+                                <h4 class="company-name">
+                                    BMW Group
+                                </h4>
+                                <div class="company-category">
+                                    IT Department
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                <div class="company-brand m-auto">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/800px-Mercedes-Logo.svg.png"
+                                        alt="image">
+                                </div>
+                                <h4 class="company-name">
+                                    MERCEDES-BENZ
+                                </h4>
+                                <div class="company-category">
+                                    Software developer
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                    <div class="company-brand m-auto">
+                                        <img src="https://static.vecteezy.com/system/resources/previews/006/874/233/original/netflix-logo-icon-on-white-background-free-vector.jpg"
+                                            alt="image">
+                                    </div>
+                                    <h4 class="company-name">
+                                        Netflix
+                                    </h4>
+                                    <div class="company-category">
+                                        Data analyst
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                    <div class="company-brand m-auto">
+                                        <img src="https://www.redwolf.in/image/catalog/stickers/dc-logo-sticker-india.jpg"
+                                            alt="image">
+                                    </div>
+                                    <h4 class="company-name">
+                                        DC Comics
+                                    </h4>
+                                    <div class="company-category">
+                                        System admin
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                    <div class="company-brand m-auto">
+                                        <img src="https://www.cbcsport.az/assets_new/logo/logo.png" alt="image">
+                                    </div>
+                                    <h4 class="company-name">
+                                        CBC SPORT
+                                    </h4>
+                                    <div class="company-category">
+                                        System admin
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                    <div class="company-brand m-auto">
+                                        <img src="https://static.vecteezy.com/system/resources/previews/006/874/233/original/netflix-logo-icon-on-white-background-free-vector.jpg"
+                                            alt="image">
+                                    </div>
+                                    <h4 class="company-name">
+                                        NETFLIX
+                                    </h4>
+                                    <div class="company-category">
+                                        System admin
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                    <div class="company-brand m-auto">
+                                        <img src="https://upload.wikimedia.org/wikipedia/az/5/51/Yelo_Bank_loqo.png"
+                                            alt="image">
+                                    </div>
+                                    <h4 class="company-name">
+                                        Yelo Bank
+                                    </h4>
+                                    <div class="company-category">
+                                        System admin
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                    <div class="company-brand m-auto">
+                                        <img src="https://www.redwolf.in/image/catalog/stickers/dc-logo-sticker-india.jpg"
+                                            alt="image">
+                                    </div>
+                                    <h4 class="company-name">
+                                        DC Comics
+                                    </h4>
+                                    <div class="company-category">
+                                        Vue JS developer
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                    <div class="company-brand m-auto">
+                                        <img src="https://upload.wikimedia.org/wikipedia/az/5/51/Yelo_Bank_loqo.png"
+                                            alt="image">
+                                    </div>
+                                    <h4 class="company-name">
+                                        Yelo Bank
+                                    </h4>
+                                    <div class="company-category">
+                                        System admin
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                    <div class="company-brand m-auto">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEsEcEMd-X5yOs0L6oYjSdG_evnG_V5tTRkjJqezU&s"
+                                            alt="image">
+                                    </div>
+                                    <h4 class="company-name">
+                                        UEFA
+                                    </h4>
+                                    <div class="company-category">
+                                        System admin
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                    <div class="company-brand m-auto">
+                                        <img src="https://www.cbcsport.az/assets_new/logo/logo.png" alt="image">
+                                    </div>
+                                    <h4 class="company-name">
+                                        CBC SPORT
+                                    </h4>
+                                    <div class="company-category">
+                                        System admin
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-company text-center">
+                                    <div class="company-brand m-auto">
+                                        <img src="https://static.vecteezy.com/system/resources/previews/006/874/233/original/netflix-logo-icon-on-white-background-free-vector.jpg"
+                                            alt="image">
+                                    </div>
+                                    <h4 class="company-name">
+                                        NETFLIX
+                                    </h4>
+                                    <div class="company-category">
+                                        System admin
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <aside class="companies-aside position-absolute">
+
+                    </aside>
+                    <button class="ca-close-btn position-absolute" type="button" id="close-company-aside">
+                        <span class="close-icon">
+                            <i class="fa-solid fa-xmark"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<script>
+    // job filering view (list / grid)
+    const companyViewList = document.querySelector("#company-view__list");
+    const companyViewGrid = document.querySelector("#company-view__grid");
+    const singleCompany = document.querySelectorAll(".companies-main>.row>*")
+    const companyMain = document.getElementsByClassName("companies-main")[0]
+    const companyRow = document.querySelector(".companies-main>.row")
+    console.log(companyRow);
+    companyViewList.onclick = function () {
+        singleCompany.forEach((item) => {
+            item.classList.add("col-lg-6");
+            item.classList.remove("col-lg-3");
+        })
+        companyRow.classList.add("center")
+        companyViewGrid.classList.remove("active")
+        this.classList.add("active")
+    }
+    companyViewGrid.onclick = function () {
+        singleCompany.forEach((item) => {
+            item.classList.remove("col-lg-6");
+            item.classList.add("col-lg-3");
+        })
+        companyRow.classList.remove("center")
+        companyViewList.classList.remove("active")
+        this.classList.add("active")
+    }
+
+
+
+    // companies aside
+    const companies = document.querySelectorAll(".companies-main .single-company")
+    const companiesAside = document.querySelector(".companies-aside")
+    const closeCompanyASide = document.getElementById("close-company-aside")
+    console.log(closeCompanyASide);
+    companies.forEach(company => company.onclick = function (e) {
+        companiesAside.style.display = "block"
+        closeCompanyASide.style.display = "block"
+        const companyName = company.querySelector(".company-name").innerText
+        const companyLogo = company.querySelector(".company-brand img").getAttribute("src")
+        const moreInfo = `
+                        <div class="company-logo">
+                            <img src="${companyLogo}"
+                                alt="image">
+                        </div>
+                        <h4 class="company-name">
+                            ${companyName}
+                        </h4>
+                        <div class="company-desc">
+                            Creative Design Agency
+                        </div>
+                        <button class="follow-btn custom-btn custom-btn-solid">
+                            <span>
+                                Follow
+                            </span>
+                        </button>
+                        <div class="d-flex justify-content-between company-details">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/css/icons/icon.svg" alt="image" />
+                                <div class="company-details-text">
+                                    <span>80 - 100</span> <br />
+                                    <span>Employee</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center ">
+                                <img src="assets/css/icons/reviews-icon.svg" alt="image" />
+                                <div class="company-details-text">
+                                    <span>80 - 100</span> <br />
+                                    <span>Employee</span>
+                                </div>
+                            </div>
+                        </div>
+                       `
+
+        companiesAside.innerHTML = moreInfo
+
+        e.preventDefault()
+    })
+    closeCompanyASide.onclick = function () {
+        companiesAside.style.display = "none"
+        this.style.display = "none"
+    }
+</script>
+//= include/footer.html

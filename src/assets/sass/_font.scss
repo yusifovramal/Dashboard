@@ -1,0 +1,26 @@
+
+// page all font-family 
+$bold            : "Poppins-Bold.ttf";
+$regular          : "Poppins-Regular.ttf";
+$medium          : "Poppins-Medium.ttf";
+$black          : "Poppins-Black.ttf";
+
+/* fonts starts */
+
+@font-face {
+    font-family: $bold;   
+    src: url("fonts/TTNorms/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: $regular;   
+    src: url("fonts/TTNorms/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: $medium;   
+    src: url("fonts/TTNorms/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: $black;   
+    src: url("fonts/TTNorms/Poppins-Black.ttf");
+}
+/* fonts ends */

@@ -1,0 +1,837 @@
+//= include/header.html
+<div class="main-container">
+    //= include/main-aside.html
+    <div class="main-content">
+        <!-- Start of Main header -->
+        <header class="main-header">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-6 col-sm-2 col-md-3 col-lg-3">
+                        <div class="header-left d-flex align-items-center">
+                            <button type="button" class="menu-btn" id="menu-btn">
+                                <span>
+                                    <img src="assets/css/icons/ic_menu.svg" alt="image" />
+                                </span>
+                            </button>
+                            <h3 class="section-title">Dashboard</h3>
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 d-none d-lg-block">
+                        <div class="header-center">
+                            <div class="search-input position-relative">
+                                <input type="text" class="custom-input" placeholder="Search something here..." />
+                                <div class=" search-input-icon">
+                                    <a href="#"><img src="assets/css/icons/ic_search.svg" alt="image" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-9 col-md-8 col-lg-4">
+                        <div class="header-right d-flex align-items-center justify-content-end">
+                            <div class="mobile-search-input">
+                                <div class="mobile-search-input-icon">
+                                    <a href="#"><img src="assets/css/icons/ic_search.svg" alt="image" /></a>
+                                </div>
+                            </div>
+                            <a href="#" class="hr-chat d-flex align-items-center justify-content-center position-relative ">
+                                <img src="assets/css/icons/ic_chat2.svg" alt="image" />
+                                <div
+                                    class="hr-chat-badge d-flex align-items-center justify-content-center position-absolute">
+                                    18
+                                </div>
+                            </a>
+                            <a href="#"
+                                class="hr-notifications d-flex align-items-center justify-content-center position-relative">
+                                <img src="assets/css/icons/ic_bell.svg" alt="image" />
+                                <div
+                                    class="hr-notif-badge  d-flex align-items-center justify-content-center position-absolute">
+                                    52
+                                </div>
+                            </a>
+                            <div class="account d-flex">
+                                <div class="account-img">
+                                    <a href="#"><img src="../assets/img/user-image.png" alt="image" /></a>
+                                </div>
+                                <div class="account-content">
+                                    <h4 class="account-name">
+                                        Oda Dink
+                                    </h4>
+                                    <div class="account-info">
+                                        Super admin
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <!-- End of Main header -->
+        <section class="cards">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="home-card d-flex">
+                            <div class="home-card-icon">
+                                <img src="assets/css/icons/card-icon1.svg" alt="image" />
+                            </div>
+                            <div class="home-card-content">
+                                <h4 class="home-card-title">
+                                    Interviews Schedule
+                                </h4>
+                                <div class="home-card-num">
+                                    86
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="home-card d-flex card-blue">
+                            <div class="home-card-icon">
+                                <img src="assets/css/icons/card-icon1.svg" alt="image" />
+                            </div>
+                            <div class="home-card-content">
+                                <h4 class="home-card-title">
+                                    Application Sent
+                                </h4>
+                                <div class="home-card-num">
+                                    74
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="home-card d-flex card-green">
+                            <div class="home-card-icon">
+                                <img src="assets/css/icons/card-icon1.svg" alt="image" />
+                            </div>
+                            <div class="home-card-content">
+                                <h4 class="home-card-title">
+                                    Profile Viewed
+                                </h4>
+                                <div class="home-card-num">
+                                    86.374
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="home-card d-flex card-green2">
+                            <div class="home-card-icon">
+                                <img src="assets/css/icons/card-icon1.svg" alt="image" />
+                            </div>
+                            <div class="home-card-content">
+                                <h4 class="home-card-title">
+                                    Unread Message
+                                </h4>
+                                <div class="home-card-num">
+                                    86
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- dashboard-chart -->
+        <main class="dashboard-main">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="dashboard-main-left">
+                            <div class="profile">
+                                <div class="profile-img-cover position-relative">
+                                    <img src="../assets/img/profilePicture.png" alt="image" />
+                                    <div class="profile-img position-absolute">
+                                        <img src="../assets/img/user-image.png" alt="image" />
+                                    </div>
+                                </div>
+                                <h4 class="profile-name text-center">
+                                    Odo link
+                                </h4>
+                                <p class="profile-job text-center">
+                                    Programmer
+                                </p>
+                                <div class="profile-skills d-flex justify-content-between align-items-center ">
+                                    <div id="skillOne">
+                                    </div>
+                                    <div id="skillTwo">
+                                    </div>
+                                    <div id="skillThree">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent-activities">
+                                <h4>
+                                    Recent Activities
+                                </h4>
+                                <div class="recent-activities-main position-relative">
+                                    <div class="single-activity">
+                                        <div class="row align-items-center">
+                                            <div class="col-2">
+                                                <img src="assets/css/icons/ic_applications-p.svg" alt="image" />
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="ra-content">
+                                                    <div class="ra-text">
+                                                        Your application has accepted in <span>3 Vacancy</span>
+                                                    </div>
+                                                    <span class="ra-timeAgo">
+                                                        12h ago
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-activity">
+                                        <div class="row align-items-center">
+                                            <div class="col-2">
+                                                <img src="assets/css/icons/ic_applications-p.svg" alt="image" />
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="ra-content">
+                                                    <div class="ra-text">
+                                                        Your application has accepted in <span>3 Vacancy</span>
+                                                    </div>
+                                                    <span class="ra-timeAgo">
+                                                        12h ago
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-activity">
+                                        <div class="row align-items-center">
+                                            <div class="col-2">
+                                                <img src="assets/css/icons/ic_applications-p.svg" alt="image" />
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="ra-content">
+                                                    <div class="ra-text">
+                                                        Your application has accepted in <span>3 Vacancy</span>
+                                                    </div>
+                                                    <span class="ra-timeAgo">
+                                                        12h ago
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-activity">
+                                        <div class="row align-items-center">
+                                            <div class="col-2">
+                                                <img src="assets/css/icons/ic_applications-p.svg" alt="image" />
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="ra-content">
+                                                    <div class="ra-text">
+                                                        Your application has accepted in <span>3 Vacancy</span>
+                                                    </div>
+                                                    <span class="ra-timeAgo">
+                                                        12h ago
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="re-button text-center position-absolute">
+                                        <a href="#" class="show-more-activity">
+                                            <img src="assets/css/icons/ic_arrowBack-re.svg" alt="image" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="dashboard-main-right">
+                            <section class="dashboard-chart">
+                                <div class="dashboard-chart-cover">
+                                    <div
+                                        class="dashboard-chart-header d-flex align-items-center justify-content-sm-between justify-content-center">
+                                        <h4 class="dc-header-title">
+                                            Vacancy Stats
+                                        </h4>
+                                        <div class="dc-header-btns d-flex align-items-center">
+                                            <div class="toggle-btn-wrapper d-flex align-items-center">
+                                                <div>
+                                                    Application Sent
+                                                </div>
+                                                <button id="application-sent" type="button"
+                                                    class="toggle-btn  position-relative ">
+                                                    <span class="position-absolute">
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="toggle-btn-wrapper d-flex align-items-center">
+                                                <div>
+                                                    Interviews
+                                                </div>
+                                                <button type="button" class="toggle-btn  position-relative ">
+                                                    <span class="position-absolute">
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="toggle-btn-wrapper d-flex align-items-center">
+                                                <div>
+                                                    Rejected
+                                                </div>
+                                                <button type="button" class="toggle-btn  position-relative ">
+                                                    <span class="position-absolute">
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="dashboard-chart">
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- jobs-carousel-sec -->
+                            <section class="jobs-carousel-sec">
+                                <div class="container-fluid">
+                                    <h4>
+                                        Recommended jobs
+                                    </h4>
+                                    <div class="carousel-wrapper position-relative">
+                                        <div class="owl-carousel owl-theme jobs-carousel carousel-general">
+                                            <div class="single-job">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="job-header">
+                                                        <div class="row">
+                                                            <div class="col-9">
+                                                                <div class="job-header-left">
+                                                                    <div class="job__company-name">
+                                                                        BMW Group
+                                                                    </div>
+                                                                    <h3 class="job-title">
+                                                                        Database Progammer
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="job-img text-end">
+                                                                    <img src="../assets/img/company-logo.png" alt="image">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-content">
+                                                        <div class="job-salary">
+                                                            $94,000 - $125,000
+                                                        </div>
+                                                        <div class="job-desc">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                                            do
+                                                            eiusmod tempor
+                                                            incididunt ut
+                                                            labore et dolore magna aliqua. Ut enim ad minim veniam...
+                                                        </div>
+                                                        <div
+                                                            class="job__bottom d-flex justify-content-between align-items-center">
+                                                            <div class="job-type">
+                                                                REMOTE
+                                                            </div>
+                                                            <div class="job-location">
+                                                                London, England
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="single-job">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="job-header">
+                                                        <div class="row">
+                                                            <div class="col-9">
+                                                                <div class="job-header-left">
+                                                                    <div class="job__company-name">
+                                                                        BMW Group
+                                                                    </div>
+                                                                    <h3 class="job-title">
+                                                                        Frontend Developer
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="job-img text-end">
+                                                                    <img src="../assets/img/company-logo.png" alt="image">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-content">
+                                                        <div class="job-salary">
+                                                            $94,000 - $125,000
+                                                        </div>
+                                                        <div class="job-desc">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                                            do
+                                                            eiusmod tempor
+                                                            incididunt ut
+                                                            labore et dolore magna aliqua. Ut enim ad minim veniam...
+                                                        </div>
+                                                        <div
+                                                            class="job__bottom d-flex justify-content-between align-items-center">
+                                                            <div class="job-type">
+                                                                REMOTE
+                                                            </div>
+                                                            <div class="job-location">
+                                                                London, England
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="single-job">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="job-header">
+                                                        <div class="row">
+                                                            <div class="col-9">
+                                                                <div class="job-header-left">
+                                                                    <div class="job__company-name">
+                                                                        BMW Group
+                                                                    </div>
+                                                                    <h3 class="job-title">
+                                                                        Backend Developer
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="job-img text-end">
+                                                                    <img src="../assets/img/company-logo.png" alt="image">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-content">
+                                                        <div class="job-salary">
+                                                            $94,000 - $125,000
+                                                        </div>
+                                                        <div class="job-desc">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                                            do
+                                                            eiusmod tempor
+                                                            incididunt ut
+                                                            labore et dolore magna aliqua. Ut enim ad minim veniam...
+                                                        </div>
+                                                        <div
+                                                            class="job__bottom d-flex justify-content-between align-items-center">
+                                                            <div class="job-type">
+                                                                REMOTE
+                                                            </div>
+                                                            <div class="job-location">
+                                                                London, England
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="single-job">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="job-header">
+                                                        <div class="row">
+                                                            <div class="col-9">
+                                                                <div class="job-header-left">
+                                                                    <div class="job__company-name">
+                                                                        BMW Group
+                                                                    </div>
+                                                                    <h3 class="job-title">
+                                                                        System Adminstartor
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="job-img text-end">
+                                                                    <img src="../assets/img/company-logo.png" alt="image">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-content">
+                                                        <div class="job-salary">
+                                                            $94,000 - $125,000
+                                                        </div>
+                                                        <div class="job-desc">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                                            do
+                                                            eiusmod tempor
+                                                            incididunt ut
+                                                            labore et dolore magna aliqua. Ut enim ad minim veniam...
+                                                        </div>
+                                                        <div
+                                                            class="job__bottom d-flex justify-content-between align-items-center">
+                                                            <div class="job-type">
+                                                                REMOTE
+                                                            </div>
+                                                            <div class="job-location">
+                                                                London, England
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="single-job">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="job-header">
+                                                        <div class="row">
+                                                            <div class="col-9">
+                                                                <div class="job-header-left">
+                                                                    <div class="job__company-name">
+                                                                        BMW Group
+                                                                    </div>
+                                                                    <h3 class="job-title">
+                                                                        Full-stack Python developer
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <div class="job-img text-end">
+                                                                    <img src="../assets/img/company-logo.png" alt="image">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-content">
+                                                        <div class="job-salary">
+                                                            $94,000 - $125,000
+                                                        </div>
+                                                        <div class="job-desc">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                                            do
+                                                            eiusmod tempor
+                                                            incididunt ut
+                                                            labore et dolore magna aliqua. Ut enim ad minim veniam...
+                                                        </div>
+                                                        <div
+                                                            class="job__bottom d-flex justify-content-between align-items-center">
+                                                            <div class="job-type">
+                                                                REMOTE
+                                                            </div>
+                                                            <div class="job-location">
+                                                                London, England
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <section class="featured-companies">
+                    <div class="container-fluid">
+                        <h4>
+                            Featured Companies
+                        </h4>
+                        <div class="featured-companies-main">
+                            <div class="owl-carousel owl-theme f-companies-carousel carousel-general">
+                                <div class="single-company">
+                                    <a href="#" class=" d-flex text-decoration-none">
+                                        <div class="company-brand">
+                                            <img src="https://static.vecteezy.com/system/resources/previews/006/874/233/original/netflix-logo-icon-on-white-background-free-vector.jpg"
+                                                alt="image">
+                                        </div>
+                                        <div>
+                                            <h4 class="company-name">Netflix</h4>
+                                            <div class="company-vacancies">
+                                                21 vacancy
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-company">
+                                    <a href="#" class=" d-flex text-decoration-none">
+                                        <div class="company-brand">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/800px-Mercedes-Logo.svg.png"
+                                                alt="image">
+                                        </div>
+                                        <div>
+                                            <h4 class="company-name">Mercedes-benz</h4>
+                                            <div class="company-vacancies">
+                                                21 vacancy
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-company">
+                                    <a href="#" class=" d-flex text-decoration-none">
+                                        <div class="company-brand">
+                                            <img src="https://signsalad.com/wp-content/uploads/2021/11/Screenshot-2021-11-03-at-12.14.11.png"
+                                                alt="image">
+                                        </div>
+                                        <div>
+                                            <h4 class="company-name">META</h4>
+                                            <div class="company-vacancies">
+                                                21 vacancy
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-company">
+                                    <a href="#" class=" d-flex text-decoration-none">
+                                        <div class="company-brand">
+                                            <img src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-logo-meaning.jpg"
+                                                alt="image">
+                                        </div>
+                                        <div>
+                                            <h4 class="company-name">AMAZON</h4>
+                                            <div class="company-vacancies">
+                                                21 vacancy
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-company">
+                                    <a href="#" class=" d-flex text-decoration-none">
+                                        <div class="company-brand">
+                                            <img src="https://download.logo.wine/logo/Supercell_(video_game_company)/Supercell_(video_game_company)-Logo.wine.png"
+                                                alt="image">
+                                        </div>
+                                        <div>
+                                            <h4 class="company-name">SUPERCELL</h4>
+                                            <div class="company-vacancies">
+                                                21 vacancy
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-company">
+                                    <a href="#" class=" d-flex text-decoration-none">
+                                        <div class="company-brand">
+                                            <img src="https://unibank.az/assets/img/logo.png" alt="image">
+                                        </div>
+                                        <div>
+                                            <h4 class="company-name">UNIBANK</h4>
+                                            <div class="company-vacancies">
+                                                21 vacancy
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<!-- owl carousel js  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $(function () {
+        $('.jobs-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoWidth: true,
+            autoplay: true,
+        })
+        $('.f-companies-carousel').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: false,
+            autoWidth: true,
+            autoplay: false,
+            dots: false
+        })
+        const viewJobs = `
+               <div class="view-more_jobs">
+                        <a href="#" class="custom-btn custom-btn-outline custom-btn-lg">
+                            <span>View More</span> <img src="assets/css/icons/ic_arrowBack.svg" alt="image" />
+                        </a>
+                </div>`
+        $('.jobs-carousel .owl-dots').wrap("<div class='jobs-carousel-wrapper'></div>")
+        $('.jobs-carousel-wrapper').append(viewJobs)
+        var options = {
+            series: [
+                {
+                    name: "Application Sent",
+                    data: [73, 78, 20, 20, 40, 50, 55, 60, 44, 0, 5, 10]
+                },
+                {
+                    name: "Interviews",
+                    data: [20, 29, 37, 36, 44, 45, 50, 58, 36, 34, 44, 19]
+                }
+                ,
+                {
+                    name: "Rejected",
+                    data: [20, 30, 40]
+                }
+            ],
+            chart: {
+                type: 'line',
+                height: 350,
+                toolbar: {
+                    show: false
+                }
+            },
+            colors: ["#4E36E2", "#1BD084", "#FF424D"],
+            xaxis: {
+                categories: ["Week 01", "Week 02", "Week 03", "Week 04", "Week 05", "Week 06", "Week 07", "Week 08", "Week 09", "Week 10", "Week 11", "Week 12"]
+            },
+            stroke: {
+                curve: 'smooth',
+            },
+            dataLabels: {
+                enabled: false
+            },
+            markers: {
+                size: 0,
+                hover: {
+                    sizeOffset: 4
+                }
+            },
+            yaxis: {
+                tickAmount: 4,
+                min: 0,
+                max: 80,
+            },
+            title: {
+                show: false
+            },
+            legend: {
+                onItemClick: {
+                    toggleDataSeries: true
+                },
+                onItemHover: {
+                    highlightDataSeries: false
+                },
+            },
+            responsive: [
+                {
+                    breakpoint: 576,
+                    options: {
+                        chart: {
+                            height: 280,
+                        }
+                    }
+                }
+            ],
+        };
+
+        var chart = new ApexCharts(document.querySelector("#dashboard-chart"), options);
+        chart.render();
+
+
+
+        var skillOne = {
+            chart: {
+                width: 70,
+                height: 125,
+                type: "radialBar"
+            },
+            colors: ["#FF8E26"],
+            series: [77],
+            plotOptions: {
+                radialBar: {
+                    hollow: {
+                        margin: 0,
+                        size: "40%"
+                    },
+                    dataLabels: {
+                        name: {
+                            offsetY: 50,
+                            color: "#232323",
+                            fontSize: "14px",
+                            fontWeight: '400'
+                        },
+                        value: {
+                            color: "#232323",
+                            offsetY: -10,
+                            fontSize: "14px",
+                            fontWeight: '600',
+                        }
+                    }
+                }
+            },
+            stroke: {
+                lineCap: "butt",
+            },
+            labels: ["JavaScript"]
+        };
+
+        var skillTwo = {
+            chart: {
+                width: 70,
+                height: 125,
+                type: "radialBar"
+            },
+            colors: ["#22AC93"],
+            series: [60],
+            plotOptions: {
+                radialBar: {
+                    hollow: {
+                        margin: 0,
+                        size: "40%"
+                    },
+                    dataLabels: {
+                        name: {
+                            offsetY: 50,
+                            color: "#232323",
+                            fontSize: "14px",
+                            fontWeight: '400'
+                        },
+                        value: {
+                            color: "#232323",
+                            offsetY: -10,
+                            fontSize: "14px",
+                            fontWeight: '600',
+                        }
+                    }
+                }
+            },
+            stroke: {
+                lineCap: "butt",
+            },
+            labels: ["React"]
+        };
+        var skillThree = {
+            chart: {
+                width: 70,
+                height: 125,
+                type: "radialBar"
+            },
+            colors: ["#3EA834"],
+            series: [85],
+            plotOptions: {
+                radialBar: {
+                    hollow: {
+                        margin: 0,
+                        size: "40%"
+                    },
+                    dataLabels: {
+                        name: {
+                            offsetY: 50,
+                            color: "#232323",
+                            fontSize: "14px",
+                            fontWeight: '400'
+                        },
+                        value: {
+                            color: "#232323",
+                            offsetY: -10,
+                            fontSize: "14px",
+                            fontWeight: '600',
+                        }
+                    }
+                }
+            },
+            stroke: {
+                lineCap: "butt",
+            },
+            labels: ["CSS"]
+        };
+        var chart = new ApexCharts(document.querySelector("#skillOne"), skillOne);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#skillTwo"), skillTwo);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#skillThree"), skillThree);
+        chart.render();
+    })
+</script
+//= include/footer.html

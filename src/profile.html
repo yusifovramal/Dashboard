@@ -1,0 +1,403 @@
+//= include/header.html
+<div class="new-skill-modal">
+  <div class="modal-container">
+    <form action="" name="newSkillForm">
+      <div class="modal-content">
+        <div class="form-item">
+          <label for="add-skill__name">Skill</label>
+          <input type="text" class="custom-input" id="add-skill__name">
+        </div>
+        <div class="form-item">
+          <label for="add-skill__percentage">How much are you goot at it? (%)</label>
+          <input type="number" class="custom-input" id="add-skill__percentage">
+        </div>
+      </div>
+      <div class="modal-footer d-flex">
+        <button type="button" class="custom-btn custom-btn-outline custom-btn-regular" id="cancel-modal-btn">
+          Cancel
+        </button>
+        <button type="button" class="custom-btn custom-btn-solid custom-btn-regular" id="save-skill">
+          Add skill
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="main-container">
+  //= include/main-aside.html
+  <main class="main-content">
+    <!-- Start of Main header -->
+    <header class="main-header">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-3 col-sm-2 col-md-3 col-lg-3">
+            <div class="header-left d-flex align-items-center">
+              <button type="button" class="menu-btn" id="menu-btn">
+                <span>
+                  <img src="assets/css/icons/ic_menu.svg" alt="image" />
+                </span>
+              </button>
+              <h3 class="section-title">Profile</h3>
+            </div>
+          </div>
+          <div class="col col-lg-5">
+            <div class="header-center">
+              <div class="search-input position-relative">
+                <input type="text" class="custom-input" placeholder="Search something here..." />
+                <div class=" search-input-icon">
+                  <a href="#"><img src="assets/css/icons/ic_search.svg" alt="image" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-sm-9 col-md-8 col-lg-4">
+            <div class="header-right d-flex align-items-center justify-content-end">
+              <div class="mobile-search-input">
+                <div class="mobile-search-input-icon">
+                  <a href="#"><img src="assets/css/icons/ic_search.svg" alt="image" /></a>
+                </div>
+              </div>
+              <a href="#" class="hr-chat d-flex align-items-center justify-content-center position-relative ">
+                <img src="assets/css/icons/ic_chat2.svg" alt="image" />
+                <div class="hr-chat-badge d-flex align-items-center justify-content-center position-absolute">
+                  18
+                </div>
+              </a>
+              <a href="#" class="hr-notifications d-flex align-items-center justify-content-center position-relative">
+                <img src="assets/css/icons/ic_bell.svg" alt="image" />
+                <div class="hr-notif-badge  d-flex align-items-center justify-content-center position-absolute">
+                  52
+                </div>
+              </a>
+              <div class="account d-flex">
+                <div class="account-img">
+                  <a href="#"><img src="../assets/img/user-image.png" alt="image" /></a>
+                </div>
+                <div class="account-content">
+                  <h4 class="account-name">
+                    Oda Dink
+                  </h4>
+                  <div class="account-info">
+                    Super admin
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <!-- End of Main header -->
+    <section class="breadcrumb-section">
+      <div class="container-fluid">
+        <ul class="breadcrumb">
+          <li><a href="">Profile /</a></li>
+          <li>Edit profile</li>
+        </ul>
+      </div>
+    </section>
+    <section class="edit-profile-section">
+      <div class="container-fluid">
+        <form action="#" name="editProfileForm">
+          <div class="edit-profile-header d-flex justify-content-between align-items-center">
+            <h2 class="edit-profile-title">
+              Edit Profile
+            </h2>
+            <div class="edit-profile-right d-flex align-items-center">
+              <div class="toggle-btn-wrapper d-flex align-items-center">
+                <div>
+                  Available for hire?
+                </div>
+                <button type="button" class="toggle-btn  position-relative ">
+                  <span class="position-absolute">
+                  </span>
+                </button>
+              </div>
+              <div class="edit-profile-btns">
+                <button type="button" class="edit-form-cancel custom-btn custom-btn-outline custom-btn-lg"
+                  id="edt-profile_cancel">
+                  Cancel
+                </button>
+                <button type="submit" class="custom-btn custom-btn-solid custom-btn-lg" id="save-changes">
+                  Save Changes
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="edit-profile__generals">
+            <h3 class="edit-profile-sec-title">
+              Generals
+            </h3>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <div class="form-item">
+                  <label for="edit-profile-name">First Name</label>
+                  <input type="text" class="custom-input" id="edit-profile-name">
+                </div>
+              </div>
+              <div class="col-sm-6  col-lg-4">
+                <div class="form-item">
+                  <label for="edit-profile-middle-name">Middle Name</label>
+                  <input type="text" class="custom-input" id="edit-profile-middle-name">
+                </div>
+              </div>
+              <div class="col-sm-6  col-lg-4">
+                <div class="form-item">
+                  <label for="edit-profile-last-name">Last Name</label>
+                  <input type="text" class="custom-input" id="edit-profile-last-name">
+                </div>
+              </div>
+              <div class="col-sm-6  col-lg-4">
+                <div class="form-item">
+                  <label for="edit-profile-username">Username</label>
+                  <input type="text" class="custom-input" id="edit-profile-username">
+                </div>
+              </div>
+              <div class="col-sm-6  col-lg-4">
+                <div class="form-item">
+                  <label for="edit-profile-password">Password</label>
+                  <input type="password" class="custom-input" id="edit-profile-password">
+                  <button type="button" class="password-toggle-show">
+                    SHOW
+                  </button>
+                </div>
+              </div>
+              <div class="col-sm-6  col-lg-4">
+                <div class="form-item">
+                  <label for="edit-profile-password">Verify Password</label>
+                  <input type="password" class="custom-input" id="edit-profile-repassword">
+                  <button type="button" class="password-toggle-show">
+                    SHOW
+                  </button>
+                </div>
+                <div class="verify-passowrd-error">
+                  Password doesn"t match
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="edit-profile__contact">
+            <h3 class="edit-profile-sec-title">
+              Contact
+            </h3>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="form-item icon">
+                  <label for="edit-profile-phone">Mobile / Phone</label>
+                  <input type="number" class="custom-input " id="edit-profile-phone">
+                  <img class="form-item-icon" src="assets/css/icons/telephone.svg" alt="image" />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-item icon">
+                  <label for="edit-profile-whatsapp">Whatsapp</label>
+                  <input type="number" class="custom-input " id="edit-profile-whatsapp">
+                  <img class="form-item-icon" src="assets/css/icons/whatsapp.svg" alt="image" />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-item icon">
+                  <label for="edit-profile-email">Email</label>
+                  <input type="email" class="custom-input " id="edit-profile-email">
+                  <img class="form-item-icon" src="assets/css/icons/email.svg" alt="image" />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-item ">
+                  <label for="edit-profile-address">Address</label>
+                  <input type="text" class="custom-input " id="edit-profile-address">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="edit-profile-btns-mobile">
+            <button type="button" class="edit-form-cancel custom-btn custom-btn-outline custom-btn-lg"
+              id="edt-profile_cancel">
+              Cancel
+            </button>
+            <button type="submit" class="custom-btn custom-btn-solid custom-btn-lg" id="save-changes">
+              Save Changes
+            </button>
+          </div>
+          <div class="edit-profile__about-me">
+            <h3 class="edit-profile-sec-title">
+              About me
+            </h3>
+            <h5 class="about-me-title">
+              Tell About You
+            </h5>
+            <div class="about-me-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum <br />
+              que laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+              vitae dicta su
+            </div>
+          </div>
+          <div class="edit-profile__skills">
+            <div class="row">
+              <div class="col-lg-9">
+                <h3 class="edit-profile-sec-title">
+                  Skills
+                </h3>
+              </div>
+              <div class="col-lg-3 text-end">
+                <button type="button" class="add-skill-btn" id="add-skill-btn">
+                  + Add New Skill
+                </button>
+              </div>
+            </div>
+            <div class="skills-container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="single-skill d-flex align-items-center">
+                    <div class="skill-showcase">
+                      60%
+                    </div>
+                    <div class="single-skill-range">
+                      <label for="edit-profile-programming">React JS</label>
+                      <input type="range" class="custom-input edit-range-input range-slider"
+                        id="edit-skill-programming">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="single-skill d-flex align-items-center">
+                    <div class="skill-showcase">
+                      95%
+                    </div>
+                    <div class="single-skill-range">
+                      <label for="edit-profile-html">HTML</label>
+                      <input type="range" class="custom-input edit-range-input range-slider" id="edit-skill-html">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="single-skill d-flex align-items-center">
+                    <div class="skill-showcase">
+                      52%
+                    </div>
+                    <div class="single-skill-range">
+                      <label for="edit-profile-Ui">Ui designing</label>
+                      <input type="range" class="custom-input edit-range-input range-slider" id="edit-skill-Ui">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  // showing/hiding password
+  const editProfileForm = document.getElementsByName("editProfileForm")[0]
+  const showPassword = document.querySelectorAll(".password-toggle-show")
+  showPassword.forEach((btn) => {
+    btn.onclick = function () {
+      const input = this.previousElementSibling;
+      const type = input.getAttribute("type");
+      if (type == "password") {
+        input.setAttribute("type", "text")
+        this.innerHTML = "HIDE"
+      } else {
+        input.setAttribute("type", "password")
+        this.innerHTML = "SHOW"
+      }
+    }
+  })
+  // validation for password
+  const epPassword = document.getElementById("edit-profile-password")
+  const epRePassword = document.getElementById("edit-profile-repassword")
+  editProfileForm.onsubmit = function (e) {
+    if (epPassword.value !== epRePassword.value) {
+      document.querySelector(".verify-passowrd-error").style.display = "block"
+    } else {
+      document.querySelector(".verify-passowrd-error").style.display = "none"
+    }
+
+    e.preventDefault();
+  }
+
+  // adding "new skill modal"
+  const addSkill = document.getElementById("add-skill-btn");
+  const cancelModal = document.getElementById("cancel-modal-btn");
+  const newSkillModal = document.querySelector(".new-skill-modal")
+  const modalContainer = document.querySelector(".modal-container")
+  addSkill.onclick = function () {
+    newSkillModal.classList.add("active")
+    modalContainer.classList.add("active")
+  }
+  cancelModal.onclick = function () {
+    newSkillModal.classList.remove("active")
+    modalContainer.classList.remove("active")
+  }
+  newSkillModal.onclick = function () {
+    newSkillModal.classList.remove("active")
+    modalContainer.classList.remove("active")
+  }
+  modalContainer.onclick = function (e) {
+    e.stopPropagation()
+  }
+
+  const saveSkillBtn = document.getElementById("save-skill")
+  const newSkillForm = document.getElementsByName("newSkillForm")[0]
+  const rangeInputs = document.querySelectorAll(".edit-range-input");
+
+  // Handling range input - customazing for existed range inputs and adding ones
+  function handleRangeInput(targetedRangeInput) {
+    const skillShowcase = document.querySelectorAll(".skill-showcase")
+    targetedRangeInput.forEach(item => {
+      // for default appearance
+      let showCase = item.parentElement.previousElementSibling
+      let showCaseValue = parseInt(showCase.innerText)
+      item.value = showCaseValue
+      item.style.background = `linear-gradient(to right,#40189d ${showCaseValue}%, white ${0 - showCaseValue}%`
+      //  as the range input is changing
+      item.oninput = function () {
+        showCase.innerText = item.value + "%"
+        const value = item.value
+        item.style.background = `linear-gradient(to right, #40189d 0%,  ${value}%, #fff ${value}%, white 100%)`
+      }
+    })
+  }
+  handleRangeInput(rangeInputs)
+  // Adding new skill
+  saveSkillBtn.onclick = (e) => {
+    let newSkillName = document.querySelector("#add-skill__name")
+    let newSkillPerc = document.querySelector("#add-skill__percentage")
+    if (newSkillName.value == "" || newSkillPerc.value == "") {
+      alert("Inputs must be fiiled")
+    } else {
+      let html = `
+                 <div class="col-lg-6">
+                    <div class="single-skill d-flex align-items-center">
+                      <div class="skill-showcase">
+                        ${newSkillPerc.value}%
+                      </div>
+                      <div class="single-skill-range">
+                        <label for="edit-profile-${newSkillName.value.replace(" ", "")}">${newSkillName.value}</label>
+                        <input type="range" class="custom-input edit-range-input range-slider" id="edit-skill-${newSkillName.value.replace(" ", "")}">
+                      </div>
+                    </div>
+                  </div>
+      `
+      document.querySelector(".skills-container .row").innerHTML += html
+      let newRangeEl = document.querySelectorAll(".edit-range-input");
+
+      // calling handleRangeInput and sending new created element (newRangeEl) as an argument
+      handleRangeInput(newRangeEl)
+
+      newSkillModal.classList.remove("active")
+      modalContainer.classList.remove("active")
+      newSkillName.value = ""
+      newSkillPerc.value = ""
+    }
+    e.preventDefault()
+  }
+</script>
+//= include/footer.html
